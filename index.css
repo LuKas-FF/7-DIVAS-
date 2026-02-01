@@ -1,0 +1,30 @@
+
+/* Estilos globais para o Ateliê 7 Divas */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accent-gold: #D4AF37;
+  --primary-red: #B91C1C;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #050505;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #D4AF37;
+  border-radius: 10px;
+}
